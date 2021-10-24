@@ -17,8 +17,139 @@ body {
     background-color: rgb(216, 216, 216);
 }
 
+header {
+    padding: 20px 35px;
+    background-color: var(--tcolor);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
+
+}
+
 header h1 {
     font-family: 'Bebas Neue', cursive;
-    font-size: 64px;
+    font-size: 36px;
+    margin: 0;
     color: var(--scolor)
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    color: var(--scolor);
+    text-decoration: none;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--pcolor);
+    color: var(--scolor);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.intro {
+    margin: 50px auto;
+    padding-bottom: 10px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro img {
+    height:500px;
+    width:500px;
+    object-fit: cover;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 50%;
+    display:inline-block;
+}
+
+.intro h2 {
+    background-color: var(--scolor);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.about-me {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-me h2 {
+    font-size: 30px;
+    border-bottom: 3px solid;
+    color: var(--scolor);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.about-me p {
+    text-align:center;
+    margin: 35px auto 35px auto
+    font-size:20px;
+    background-color: var(--tcolor);
+    color: #fff;
+    padding: 20px
+}
+
+.projects {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects h2 {
+    font-size: 30px;
+    border-bottom: 3px solid;
+    color: var(--scolor);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px auto 35px auto;
+    width: 50%;
+    position:absolute;
+}
+
+.projects img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: 100px auto 50px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-titles {
+    text-align:center;
 }
