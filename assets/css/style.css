@@ -153,3 +153,17 @@ header nav ul li a:hover {
 .project-titles {
     text-align:center;
 }
+
+.contact-me h2{
+    font-size: 30px;
+    border-bottom: 3px solid;
+    color: var(--scolor);
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 20px auto 35px auto;
+    width: 50%;
+}
+
+.contact-me li {
+    text-align:center;
+}
